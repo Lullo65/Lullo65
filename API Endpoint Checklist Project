@@ -1,0 +1,55 @@
+API as an Endpoint, Best Security Practices Checklist
+
+APIs are crucial to digital innovation. They are the glue that ties today’s online apps together, making them a popular target for bad actors aiming to exploit the profitable data they connect. So, with enterprises increasingly relying on APIs to provide essential business activities, how can you fill the holes in your API Security strategy?
+
+The goal of this API Endpoint Checklist is to help someone navigate through the best practices you can put in place to secure an API.
+
+Checklist:
+1.	Designing and Developing Secure APIs
+  a.	Draft security requirements for building and integrating APIs.
+  b.	Include business logic in design reviews.
+  c.	Draft secure coding and configuration practices relevant to your technology stacks.
+2.	API Documentation
+  a.	Use machine formats like OpenAPI Specification (OAS)
+  b.	Repurpose API schema as a basic testing approach and protection approach.
+  c.	Have a contingency plan for documentation discrepancies and API drift.
+3.	API Discovery and Cataloging
+  a.	Discover APIs in lower environments and not just production.
+  b.	Include API dependencies, or third-party APIs.
+  c.	Tag and label APIs and microservices as DevOps best practice.
+4.	API Security Testing
+  a.	Statically analyze API code automatically as part of version control and CI/CD
+  b.	Check for known vulnerable dependencies in your API code.
+  c.	Dynamically analyze and fuzz deployed APIs to identify exploitable code in runtime.
+5.	Font End Security
+  a.	Draft security requirements for front-end code including JavaScript, Android, and iOS.
+  b.	Store minimal or no data client-side since it is prone to attack and reverse engineering.
+  c.	Explore client-side code protections if you’ve secured back-end APIs.
+6.	Logging and Monitoring
+  a.	Define all the infrastructure, application, and API elements that must be logged.
+  b.	Factor in non-security use cases such as API performance and uptime measures.
+  c.	Allocate enough storage for API telemetry, which will lead you to cloud.
+7.	API Mediation and Architecture
+  a.	Mediate APIs to improve observability and monitoring capabilities.
+  b.	Use mediation mechanisms like API gateways to enforce access control.
+  c.	Augment your mediation mechanisms with API security tooling that can provide deeper context.
+8.	Network Security
+  a.	Enable encrypted transport to protect the data your APIs transmit.
+  b.	Use IP address allow and deny lists if you have small numbers of API consumers.
+  c.	Look to dynamic rate limiting and rely on static rate limiting as a last resort.
+9.	Data Security
+  a.	Use encryption selectively, knowing that transport protection suffices for most use cases.
+  b.	Avoid sending too much data to clients and relying on the client to filter data.
+  c.	Adjust for threats like scraping or data interference where encryption is not mitigation.
+10.	Authentication and Authorization
+  a.	Continuously authenticate and authorize API consumers.
+  b.	Avoid the use of API keys as a means of authentication.
+  c.	Use modern authorization protocols such as OAuth2 with security extensions.
+11.	Runtime Protection
+  a.	Enable threat protection features of your API gateways and APIM if available.
+  b.	Ensure that DoS and DDoS mitigation is part of your API protection approach.
+  c.	Go beyond traditional runtime controls that are dependent on rules and make of AI/ML and behavior analysis engines to detect API attacks.
+12.	Security Operation
+  a.	Account for the non-security and security personas involved in the complete API stack.
+  b.	Create API-centric incident response playbooks.
+  c.	Spare your SOC from burnout by surfacing actionable API events and not dumping data.
