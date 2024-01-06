@@ -1,0 +1,27 @@
+Bring Your Own Device Endpoint Checklist
+
+Many firms allow workers to use their own mobile devices to conduct work-related tasks. A poorly protected personal mobile device might expose an enterprise or employee to data loss or a privacy violation. Ensuring the security of an organization’s data when its use from personal devices brings new obstacles and hazards.
+
+The goal of this checklist is to outline best practices for users within an organization to use their own devices safely and securely in an enterprise environment.
+
+Checklist:
+1.	Know Your Devices
+  a.	Establish which devices you are ready to support. 
+  b.	Know which devices meet security standards and let users know what they can and cannot use.
+  c.	Find out which devices have native enterprise management tools and which ones use third-party tools.
+2.	Establish Ground Rules
+  a.	Make users aware that their personal data may be wiped if their data is compromised.
+  b.	If users are using their own devices, make sure they understand the risk involved.
+  c.	Make this clear before they start using the device for work.
+3.	Lock-Down data
+  a.	Make security measures, such as having a PIN or encryption, mandatory.
+  b.	Complete periodic security audits to help verify the safety of company data and assess any potential risks.
+  c.	Encrypt data when possible.
+4.	Vet Apps
+  a.	Not all apps meet security standards.
+  b.	Determine which apps users will help users in their work, without compromising company data.
+  c.	Set up an app lab and test them to see which ones meet business needs.
+  d.	Find the correct apps, then recommend them to users.
+5.	Training
+  a.	If BYOD is in your security policies, train users in proper BYOD practice.
+  b.	Develop a formal BYOD policy that understands privacy rights and access rights for both employees and employers.
